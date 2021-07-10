@@ -1,0 +1,2 @@
+rootProject.name = "UIControlPractice_20210710"
+include ':app'
