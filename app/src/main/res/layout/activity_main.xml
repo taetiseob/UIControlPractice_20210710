@@ -9,11 +9,14 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/contentEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="text"
         android:hint="아무거나 입력해보세용"/>
 
     <Button
+        android:id="@+id/toastBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="문장을 토스트로 띄워줍니다"/>
